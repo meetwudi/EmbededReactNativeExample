@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "ReactView.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet ReactView *reactView;
 
 @end
 
@@ -16,7 +19,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning {
